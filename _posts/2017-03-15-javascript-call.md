@@ -5,14 +5,14 @@ summary: 深入了解call，手写call方法
 featured-img: javascript
 categories: Javascript
 ---
-call方法主要有以下两个作用：
+一、call方法主要有以下两个作用：
 
 1.call改变了this的指向  
 
 2.函数执行了  
 
 
-call的应用场景：
+二、call的应用场景：
 1.验证类型  
 
 例如 验证是否是数组  
@@ -30,7 +30,7 @@ function isArray(obj){
 2.调用父构造函数实现继承  
 
 
-手写实现call方法
+三、手写实现call方法
 
 1.判断调用时否是函数
 
